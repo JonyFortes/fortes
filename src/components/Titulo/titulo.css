@@ -1,14 +1,10 @@
-.nav-wrapper{
-    padding-left: 2%;   
-    padding-right: 2%;   
-    background-color: #242424;
-    border-bottom: 3px solid #7b1414;
-}
-a.brand-logo{
+.brand-logo{
+    text-align: center;
     color: #f9c5a2;
-
+    background-color: #242424;
+    margin: 0;
 }
-.menu-list{
+.brand-logo a{
     color: #f9c5a2;
 
 }
