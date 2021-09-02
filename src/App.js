@@ -5,9 +5,9 @@ import Titulo from './components/Titulo/titulo.jsx';
 
 function App() {
   return (  
-    <> 
-    <Titulo />
+    <>  
     <NavBar />
+    <Titulo titulos="TNA"></Titulo>
     </>
   );
 }

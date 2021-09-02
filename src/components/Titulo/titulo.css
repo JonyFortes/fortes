@@ -1,10 +1,12 @@
-.brand-logo{
-    text-align: center;
+.titulo a{
     color: #f9c5a2;
-    background-color: #242424;
-    margin: 0;
+    text-shadow: 4px 4px 4px #7b1414;
+    font-size: 88px;
 }
-.brand-logo a{
-    color: #f9c5a2;
-
+.titulo{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    top:25px;
+    position: absolute;
 }

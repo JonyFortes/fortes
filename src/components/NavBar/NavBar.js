@@ -1,5 +1,8 @@
 import React, { useCallback } from 'react';
 import './NavBar.css';
+import Carrito from './Carrito/Carrito.js';
+import Search from './Search/Search.js';
+
 
 
 class Navbar extends React.Component{
@@ -18,9 +21,9 @@ class Navbar extends React.Component{
                     <li><a href="#">Teclado</a></li>
                 </ul>
                 <ul  class="right">
-                    <li><a href="#"><i class="material-icons">shopping_cart</i></a></li>
-                    <li><a href="#"><i class="material-icons">search</i></a></li>
-                    
+                    <Carrito/>
+                    <Search/>
+
                 </ul>
             </div>
             </nav>
