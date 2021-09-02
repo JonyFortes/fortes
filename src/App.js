@@ -7,7 +7,7 @@ function App() {
   return (  
     <>  
     <NavBar />
-    <Titulo titulos="TNA"></Titulo>
+    <Titulo titulos={["TNA"]}></Titulo>
     </>
   );
 }

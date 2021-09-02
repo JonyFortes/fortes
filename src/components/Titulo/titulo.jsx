@@ -3,7 +3,10 @@ import './titulo.css';
 
 export const Titulo = (props) => {
         return(
-            <h1 className="titulo"><a  href="#">{props.titulos}</a></h1>
+            <div className="titulo">
+            <h1><a  href="#">{props.titulos[0]}</a></h1>
+            <h2>{props.titulos[1]}</h2>
+            </div>
         )
 }
 
