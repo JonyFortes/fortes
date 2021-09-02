@@ -1,8 +1,8 @@
-import React, { useCallback } from 'react';
+import React from 'react';
 import './NavBar.css';
 import Carrito from './Carrito/Carrito.js';
 import Search from './Search/Search.js';
-
+import Menu from './Menu/Menu.jsx';
 
 
 class Navbar extends React.Component{
@@ -16,9 +16,7 @@ class Navbar extends React.Component{
                 </a>
 
                 <ul class="left hide-on-med-and-down">
-                    <li><a href="#">Monitores</a></li>
-                    <li><a href="#">Mouse</a></li>
-                    <li><a href="#">Teclado</a></li>
+                    <Menu lista={["Mouse","Teclados","Monitores"]} />
                 </ul>
                 <ul  class="right">
                     <Carrito/>
